@@ -1,0 +1,101 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+nav.navbar.navbar-expand-sm.bg-light.justify-content-center{
+  position: relative;
+  margin: auto;
+  height: 40px;
+  width: 80%;
+  align: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #333131 !important;
+}
+
+nav.navbar.navbar-expand-sm.bg-light.justify-content-center .nav-item .nav-link{
+  text-transform: uppercase;
+  color: white;
+  margin: auto 20px;
+}
+
+body{
+  background-color: grey;
+}
+
+body.promo{
+  background-color: white;
+}
+
+.form-div {
+  background-color: white;
+  margin-top: 100px;
+  padding: 30px;
+  border: thin solid;
+}
+
+#promoDisplay{
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.promos img{
+  height: 300px;
+}
+
+.promos .row .card {
+  border-style: none;
+  border-bottom-style:solid;
+  border-top-style:solid;
+  border-bottom-width: 3px;
+  border-color: gold;
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+  text-align: justify;
+  margin: auto auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.promos .card-link{
+  font-size: 30px;
+  line-height: .5em;
+}
+
+.container.div-sales h1, .container.div-request h1, .container.div-promo h1{
+  font-style: italic;
+  padding: 10px;
+  line-height: 2em;
+}
+
+.container.div-sales, .container.div-request{
+  background-color: white;
+  margin: 20px auto;
+  border-style: solid;
+  border-width: thin;
+}
+
+
+.container-fluid.div-customer, .container-fluid.div-view{
+  background-color: white;
+  margin: 20px auto;
+  width: 95%;
+  border-style: solid;
+  border-width: thin;
+}
+
+.container.div-sales .row .Card{
+  border: thin solid;
+  margin: 10px 30px;
+  padding: 10px 0px;
+}
+
+.container.div-sales .row .Card.right{
+  margin-left:0px;
+}
+
+.container.div-sales .row .Card.left{
+  margin-right:0px;
+}
